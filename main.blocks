@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="9M|{Up*[2lT{uM8`#^a3" x="49" y="56"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="V3=$wsT~Q8m.6I^#EWIh"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="L9K1|bm/BY3*V5vf!?Qo"><value name="note"><shadow type="device_note" id="EhihoZz~D;?#,tYIgl]e"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="M%z0CG|y2!Qw)FaFSvhF"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="device_show_leds" id="q*oW@tGtenz0FA6EkZO2"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="RzTFywi|xR,Kf)}d549a"><field name="LEDS">`
+        . # # # . 
+        # . . # # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="dTE?^Jau_hZR7l31ue6k"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="ptpS?A$75Z8DmYR+@b1T"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # . # 
+        # . . # # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id=".^eCA=B!Cee18Nuh4dDj"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # . # 
+        # . # . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id=";cm_54OQvC-qOOaH(-pq"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # . # 
+        # # . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="*7$x1nq^H^y*F7xN_r]4"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # # # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="dmmdJs)E?QKMAG1NSEWU"><field name="LEDS">`
+        . # # # . 
+        # # . . # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="4?ntO~3R+b}u$N57Y!0P"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="NK@V3%wa~U?_5_HPKu5t"><value name="pause"><shadow type="timePicker" id="AUdRl`rLZ{459$H2!DD2"><field name="ms">500</field></shadow></value><next><block type="device_clear_display" id="D$_cez}CMb8EV8EZTiWF"><next><block type="music_playable_play" id="$mN[Wrf`E%mQbS/k}$`L"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="[/1^;s`hJ%@RI#QR{T^0"><value name="melody"><shadow type="melody_editor" id="(4:LYgV/a/kkP`-YtmvC"><field name="melody">"G B A G C5 B A B "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="X?=#(_q?mkaUWSGwN{uw"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_print_message" id="#.V8p}k_G2Du%pZknRSL"><value name="text"><shadow type="text" id="{:M7Opp-?7|uM2M^]/Nc"><field name="TEXT"> 6:30 AM</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="UCiW}Mm~H9h4]!TIe3+Q" x="607" y="56"><statement name="HANDLER"><block type="controls_if" id="Uy(:ipk*WvO%c}1-Lg)c"><value name="IF0"><shadow type="logic_boolean" id="6@ANPpTPNrzh}(gZ)exd"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="0b^E}6+62~+4)~?dVGf["><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="music_stop_all_sounds" id="SZO?83@{oJAlz([[B1xR"></block></statement></block></statement></block></xml>
